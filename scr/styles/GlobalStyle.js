@@ -14,6 +14,9 @@ export const theme = {
     bodyFont: 'Lato, sans-serif',
     logoFont: 'Lobster, cursive',
   },
+  photos: {
+    home1: '/img/home1.png',
+  },
 }
 
 export const GlobalStyle = createGlobalStyle`
@@ -79,5 +82,3 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 `
-
-

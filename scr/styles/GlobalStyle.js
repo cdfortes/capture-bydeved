@@ -16,7 +16,15 @@ export const theme = {
   },
   photos: {
     home1: '/img/home1.png',
+    home2: '/img/home2.png',
   },
+  icons:{
+    clock: '/img/clock.svg',
+    diaphragm: '/img/diaphragm.svg',
+    money: '/img/money.svg',
+    teamwork: '/img/teamwork.svg',
+    
+  }
 }
 
 export const GlobalStyle = createGlobalStyle`

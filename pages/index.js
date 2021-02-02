@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import AboutSection from '../scr/components/AboutSection'
+import ServicesSection from '../scr/components/ServicesSection'
 
 
 const Title = styled.h1`
@@ -19,6 +20,7 @@ export default function Home() {
       animate='show'
     >
       <AboutSection />
+      <ServicesSection />
     </motion.div>
   )
 }

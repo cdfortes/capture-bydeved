@@ -3,9 +3,14 @@ import styled from 'styled-components'
 import { theme } from '../styles/GlobalStyle'
 
 // img
-import HomeImg from 'next/image'
 
 import { titleAnim, fade, photoAnim } from '../styles/Animations'
+
+import {Description, Image } from './Common'
+
+
+
+
 import Wave from './Wave'
 
 const AboutSection = () => {
@@ -41,7 +46,7 @@ const AboutSection = () => {
 
 //Styles
 
-const About = styled(motion.div)`
+export const About = styled(motion.div)`
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -52,33 +57,6 @@ const About = styled(motion.div)`
     display: block;
     padding: 2rem 2rem;
     text-align: center;
-  }
-`
-
-const Description = styled.div`
-  flex: 1;
-  padding-right: 5rem;
-  z-index: 2;
-  h2 {
-    font-weight: bold;
-  }
-
-  @media (max-width: 1300px) {
-    padding: 0;
-    button {
-      margin: 2rem 0rem 5rem 0rem;
-    }
-  }
-`
-
-export const Image = styled.div`
-  z-index: 2;
-  flex: 1;
-  overflow: hidden;
-  img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
   }
 `
 
